@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragmvideo_itemyout -->
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/poster" />
+
+    <ImageView
+        android:id="@+id/imageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/background"
+        android:layout_marginLeft="147dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/scan" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginLeft="107dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="扫一扫看视频"/>
+
+</RelativeLayout>
